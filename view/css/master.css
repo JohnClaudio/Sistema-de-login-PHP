@@ -1,0 +1,64 @@
+body{
+	background-color:#252525;
+	color:#ffbe00;
+	background:#252525;
+}
+
+.smalltext{
+	font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+*{margin:0px;padding:0px;}
+
+.formulario{
+	background-color:#1e1e1e;
+	color:white;
+	margin-top: 8px;
+	height: 50px;
+	border-style:none;
+	width:70%;
+}
+
+.center{
+	margin-top:5%;
+}
+
+.botao{
+width:100%;	
+}
+.logo{
+	height: 140px;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+}
+a:hover{
+	color:white;
+}
+.borda{
+	background-color:rgba(255,255,255,0.1);
+	border-radius:40px;
+	height: 300px;
+
+}
+.icone{
+	background-color:#1e1e1e;
+	color:white;
+	margin-top: 8px;
+	height: 50px;
+	border-style:none;
+}
+.formulario:focus{
+	background-color:#1e1e1e;
+	border-style: solid;
+	border-color:#ffbe00;
+	color:white;
+}
+
+.backgroundColor{
+	background-color:#252525;
+	color:#ffbe00;
+}
