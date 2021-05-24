@@ -18,11 +18,11 @@ Cada compartilhamento nas redes sociais gera 40 novas visualizações.
 ### Projecões Estimadas
 
    <img alt="Projecões Estimadas" width="600px" src="">
-   <a href="https://imgur.com/GeTelk7"><img src="https://i.imgur.com/GeTelk7.png" title="source: imgur.com" /></a>
+   <img src="https://i.imgur.com/GeTelk7.png" title="source: imgur.com" />
 
 ### Formulário de Cadastro
    <img alt="Formulário de Cadastro" width="600px" height="500px" src="">
-   <a href="https://imgur.com/m5UEasC"><img src="https://i.imgur.com/m5UEasC.png" title="source: imgur.com" /></a>
+   <img src="https://i.imgur.com/m5UEasC.png" title="source: imgur.com" /><
     
 ### 🛠 Tecnologias
 
