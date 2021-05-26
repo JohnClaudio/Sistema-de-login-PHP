@@ -16,17 +16,15 @@ require_once('view/layout/header.php');
     	<div class="input-group-prepend">
     	<span class="input-group-text icone"><i class="fas fa-user"></i></span>
     	</div>
-    	<input type="text" class="form-control formulario" placeholder="username">
-    						
+    	<input type="text" class="form-control formulario" placeholder="username">   				
     </div>
     
-      <div class="input-group form-group">
-   
+    <div class="input-group form-group">
+    
     	<div class="input-group-prepend">
     	<span class="input-group-text icone"><i class="fas fa-key"></i></span>
     	</div>
-    	<input type="password" class="form-control formulario" placeholder="password">
-    						
+    	<input type="password" class="form-control formulario" placeholder="password">  						
     </div>
 
 
