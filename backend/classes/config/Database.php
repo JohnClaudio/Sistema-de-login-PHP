@@ -1,6 +1,6 @@
 <?php
 
-//defina aqui as configurações do seu banco de dados;
+//Defina aqui as configurações do seu banco de dados;
 
 class Database
 {   

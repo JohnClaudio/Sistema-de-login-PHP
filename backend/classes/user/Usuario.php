@@ -11,14 +11,14 @@ class Usuario {
     }
     
     public function setEmail($email) {
-        $this->nome = $email;
+        $this->email = $email;
     }
     
     public function setSenha($senha) {
-        $this->nome = $senha;
+        $this->senha = $senha;
     }
     
-    /*getters (retornos)*/
+    /*Getters*/
     
     public function getNome(){
         return $this->nome;
@@ -32,12 +32,5 @@ class Usuario {
     
 }
 
-/*
-$usuario = new Usuario();
 
-$usuario->setEmail("banana");
-$usuario->setNome("meu nome");
-$usuario->setSenha("minha senha");
-
-echo $usuario->getNome();*/
 

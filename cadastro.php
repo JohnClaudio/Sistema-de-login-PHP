@@ -1,48 +1,51 @@
 <?php
-require_once('view/layout/header.php');
+require_once './backend/tools.php'; //requires das classes 
+
+        //ESTRUTURA DA PÁGINA
+        montar_layout("header");
+        montar_conteudo("cadastro"); //formulário
+        montar_layout("footer");
+                   
+   
+   if(isset($_POST['cadastro'])) { 
+    
+         //SANITIZAÇÃO
+         $email  = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+         $nome   = filter_var($_POST['nome'], FILTER_SANITIZE_STRING);
+         $senha  = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
+                  
+         if ($email != null and $nome != null and $senha != null){      
+             
+         $usuario = new Usuario();
+         $userModel = new Usermodel($pdo= new Conexao());
+                
+         //ADICIONANDO OS DADOS NO OBJETO USUARIO
+         $usuario->setEmail($email);
+         $usuario->setNome($nome);
+         $usuario->setSenha($senha);             
+         $EMAIL_EXISTENTE = $userModel->verificarEmail($email);
+
+         //VALIDANDO CADASTRO
+         if($EMAIL_EXISTENTE == TRUE)
+         { 
+             $_SESSION['EMAIL_EXISTENTE'] = TRUE;
+         }        
+         elseif($EMAIL_EXISTENTE == FALSE)
+         {
+             
+           if($userModel->cadastrarUsuario($usuario) == TRUE)
+           {
+              $_SESSION['CADASTRO_CONCLUIDO'] = TRUE;
+                              
+           }
+                   
+         }        
+       unset($_POST['cadastro']);
+       }
+        
+       header('refresh:0');
+    }
+
+
 ?>
-<main>
-	<div class="row justify-content-md-center">
-		<h3 class="text-center text-warning mt-5"> PHP Login System</h3>
-		<div class="col-sm-4 mt-5">
-		
-			<form  METHOD="POST">
-			
-				<div class="input-group form-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text icone">
-							<i class="fas fa-user"></i>
-						</span>
-					</div>
-					<input type="text" class="form-control formulario" placeholder="digite seu nome">
-					</div>
-					
-					<div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text icone">
-								<i class="fas fa-envelope"></i>
-							</span>
-						</div>
-						<input type="email" class="form-control formulario" placeholder="digite seu email">
-						</div>
-						
-						<div class="input-group form-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text icone">
-									<i class="fas fa-key"></i>
-								</span>
-							</div>
-							<input type="password" class="form-control formulario" placeholder="password">
-							</div>
-							
-							<button class="btn btn-danger btn-lg botao mt-4 " type="submit"> Login</button>
-					</form>
-					
-				</div>
-				
-					<a class="text-white smalltext mt-4" href="index.php"> Ja tenho uma conta </a>
-				</div>
-</main>
-<?php 
-require_once('view/layout/footer.php');
-?>
+

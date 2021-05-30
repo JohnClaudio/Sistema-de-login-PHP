@@ -1,17 +1,3 @@
-<?php 
-require_once('view/layout/header.php');
-
-
-
-require_once './backend/classes/model/Usermodel.php';
-require_once './backend/classes/config/Conexao.php';
-
-//$user = new Usermodel($pdo= new Conexao());
-
-
-
-
-?>
 
 <main>
 
@@ -45,9 +31,7 @@ require_once './backend/classes/config/Conexao.php';
     	<input type="password" class="form-control formulario" placeholder="password">  						
     </div>
 
-
-    <button class="btn btn-warning btn-lg botao mt-4 " type="submit"> Login</button>
-
+    <button class="btn btn-warning btn-lg botao mt-4 " name="btnLogin" type="submit"> Login</button>
 
 </form>
 
@@ -56,6 +40,3 @@ require_once './backend/classes/config/Conexao.php';
 </div>
 
 </main>
-<?php 
-require_once('view/layout/footer.php');
-?>
