@@ -3,7 +3,7 @@
 
 ## 💻 Sobre
 
-- Sistema simples de cadastro e login de usuários, o projeto feito com intuito de estudos contudo pretendo adicionar novas funcionalidades em breve.  -
+-  Esta é a primeira versão simples do PHP LOGIN SYSTEM, o projeto feito com intuito de estudos, contudo pretendo adicionar novas funcionalidades em breve. 
 -  Para a construção foi utilizado PHP, PDO, POO E MYSQL. 
 
 ### Features
