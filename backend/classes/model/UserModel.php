@@ -1,6 +1,5 @@
 <?php
 
-
 class UserModel{
     
     private $pdo;
@@ -26,6 +25,25 @@ class UserModel{
              echo $ex->getMessage();
       }     
          
+    }
+    
+    public function NomeUsuario($email)
+    {
+        
+        try
+        {
+            $stm = $this->pdo->prepare('select nome_user from usuario where email_user = :email');
+            $stm->bindParam(':email', $email);
+            $stm->execute();
+            $result = $stm->fetchAll(PDO::FETCH_ASSOC);
+            return $result[0]['nome_user'];
+            
+        }
+        catch(PDOException $ex)
+        {
+            echo $ex->getMessage();
+        }
+        
     }
     
     public function cadastrarUsuario(Usuario $usuario)

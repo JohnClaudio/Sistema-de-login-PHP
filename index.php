@@ -10,8 +10,7 @@ require_once './backend/tools.php'; //requires das classes
     {
                 
         if (!empty($_POST['email']) and !empty($_POST['password']))
-        {
-            
+        {     
             //SANITIZAÇÃO
             $email  = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
             $senha  = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
@@ -28,6 +27,7 @@ require_once './backend/tools.php'; //requires das classes
             //VALIDANDO CADASTRO
             if($LOGIN_STATUS == TRUE)
             {
+                $_SESSION['nome'] = $userModel->NomeUsuario($usuario->getEmail());
                 $_SESSION['LOGIN_STATUS'] = TRUE;
                 header('location: painel.php');
             }

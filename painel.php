@@ -1,28 +1,24 @@
 <?php
-require_once './backend/classes/model/Usermodel.php';
-require_once './backend/classes/config/Conexao.php';
+require_once './backend/tools.php'; //requires das classes
 
-$user = new Usermodel($pdo= new Conexao());
-
-
+//ESTRUTURA DA PÁGINA
+montar_layout("header");
 
 
+if(isset($_SESSION['LOGIN_STATUS'])== FALSE) 
+ {
+    montar_conteudo("auth");     
+ }
 
-//var_dump($user->cadastrarUsuario('email@email', 'rapaz', 'rapaz'));
+elseif (isset($_SESSION['LOGIN_STATUS'])== TRUE)
+ {
+    montar_conteudo("painel");  
+ }
 
-$teste = "Minha@Senha@!$#@1232154";
-
-var_dump($teste);
-
-echo filter_var($teste, FILTER_SANITIZE_STRING);
+montar_layout("footer");
 
 
-var_dump($user->verificarEmail('Kidizinhu77@gmail.com'));
-
-var_dump($user->verificarLogin('seg@gmail.com','seg'));
-//var_dump($teste);
-
-//var_dump(password_verify($senha, $hash));
-//var_dump($user->mostrarUsuarios());*/
-
-//var_dump($user->verificarEmail('joao'));
+if(isset($_POST['logout'])){
+    session_destroy();
+    header('location:index.php');
+}
