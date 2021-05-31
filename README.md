@@ -1,28 +1,30 @@
-# Sistema-de-login-PHP
-🟠 Sistema de cadastro utilizando PHP,PDO E MYSQL 
+# 🔴 PHP LOGIN SYSTEM
 
-## 💻 Sobre o projeto
 
-- Este sistema foi um desafio proposto pela Capgemini. Na Aplicação é possível realizar cadastros de anúncios, retornar um relatório com base no investimento por dia seguindo alguns requisitos para gerar as projeções:
+## 💻 Sobre
 
-- A cada 100 pessoas que visualizam o anúncio 12 clicam nele.
-A cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
-Cada compartilhamento nas redes sociais gera 40 novas visualizações.
-30 pessoas visualizam o anúncio original (não compartilhado) a cada R$ 1,00 investido.
+- Sistema simples de cadastro e login de usuários, o projeto feito com intuito de estudos contudo pretendo adicionar novas funcionalidades em breve.  -
+-  Para a construção foi utilizado PHP, PDO, POO E MYSQL. 
 
 ### Features
 
-- [x] Cadastro de anuncios;
-- [x] Filtro de pesquisa por nome de cliente ou anuncio;
+- [x] Cadastro de usuários com HASH;
+- [x] Validações de email existente, login e outros;
 
-### Projecões Estimadas
+### Formulário de Cadastro (cadastro.php)
+   <img src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" />
 
-   <img alt="Projecões Estimadas" width="600px" src="">
-   <img src="https://i.imgur.com/GeTelk7.png" title="source: imgur.com" />
+### Formulário de Login  (index.php);
 
-### Formulário de Cadastro
-   <img alt="Formulário de Cadastro" width="600px" height="500px" src="">
-   <img src="https://i.imgur.com/m5UEasC.png" title="source: imgur.com" /><
+   <img src="https://imgur.com/7nnZFyC.png" title="source: imgur.com" />
+   
+### TELA DE PAINEL (painel.php);
+
+<img src="https://imgur.com/Aw4tVTT.png" title="source: imgur.com" />
+    
+### BANCO DE DADOS;
+
+   <img src="https://imgur.com/flvADYs.png" title="source: imgur.com" />
     
 ### 🛠 Tecnologias
 
