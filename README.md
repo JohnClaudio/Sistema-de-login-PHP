@@ -3,7 +3,7 @@
 
 ## 💻 Sobre
 
--  Esta é a primeira versão simples do PHP LOGIN SYSTEM, o projeto feito com intuito de estudos, contudo pretendo adicionar novas funcionalidades em breve. 
+-  Esta é a primeira versão simples do PHP LOGIN SYSTEM, o projeto feito com intuito de estudo, pretendo adicionar novas funcionalidades em breve. 
 -  Para a construção foi utilizado PHP, PDO, POO E MYSQL. 
 
 ### Features
@@ -25,6 +25,10 @@
 ### BANCO DE DADOS;
 
    <img src="https://imgur.com/flvADYs.png" title="source: imgur.com" />
+   
+### VIDEO DEMO
+
+[![VIDEO DEMO](https://user-images.githubusercontent.com/61328786/120248899-5a697e00-c24f-11eb-97e4-9d3019c425d9.png)](https://www.youtube.com/watch?v=FTP9JzuTZBs)
     
 ### 🛠 Tecnologias
 
