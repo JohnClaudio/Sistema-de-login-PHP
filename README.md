@@ -7,7 +7,6 @@
 - para a realização do projeto utilizei PHP, PDO, POO E MYSQL.
 - Pretendo ir adicionando novas funcionalidades em breve
 
-
 ### Features
 
 - [x] Cadastro de usuários com HASH;
@@ -15,14 +14,20 @@
 
 ### Formulário de Cadastro
    <img alt="Formulário de Cadastro" width="600px" height="500px" src="">
-   <img src="https://i.imgur.com/m5UEasC.png" title="source: imgur.com" /><
+   <img src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" /><
 
-### TELA DE LOGIN;
+### Formulário de Login;
 
-   <img alt="Projecões Estimadas" width="600px" src="">
-   <img src="https://imgur.com/sFvGkyo.png" title="source: imgur.com" />
+   <img alt="Formulario de Login" width="600px" src="">
+   <img src="https://imgur.com/7nnZFyC.png" title="source: imgur.com" />
    
 ### TELA DE PAINEL;
+
+     
+### BANCO DE DADOS;
+
+   <img alt="Formulario de Login" width="600px" src="">
+   <img src="https://imgur.com/flvADYs.png" title="source: imgur.com" />
     
 ### 🛠 Tecnologias
 
