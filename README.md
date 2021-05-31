@@ -1,27 +1,27 @@
-# 🟠 PHP LOGIN SYSTEM
+# 🔴 PHP LOGIN SYSTEM
 
 
 ## 💻 Sobre
 
-- Um Sistema simples de CADASTRO E LOGIN realizado com intuito de estudo
-- para a realização do projeto utilizei PHP, PDO, POO E MYSQL.
-- Pretendo ir adicionando novas funcionalidades em breve
+- Sistema simples de cadastro e login de usuários, o projeto feito com intuito de estudos contudo pretendo adicionar novas funcionalidades em breve.  -
+-  Para a construção foi utilizado PHP, PDO, POO E MYSQL. 
 
 ### Features
 
 - [x] Cadastro de usuários com HASH;
 - [x] Validações de email existente, login e outros;
 
-### Formulário de Cadastro
-   <img src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" /><
+### Formulário de Cadastro (cadastro.php)
+   <img src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" />
 
-### Formulário de Login;
+### Formulário de Login  (index.php);
 
    <img src="https://imgur.com/7nnZFyC.png" title="source: imgur.com" />
    
-### TELA DE PAINEL;
+### TELA DE PAINEL (painel.php);
 
-     
+<img src="https://imgur.com/Aw4tVTT.png" title="source: imgur.com" />
+    
 ### BANCO DE DADOS;
 
    <img src="https://imgur.com/flvADYs.png" title="source: imgur.com" />
