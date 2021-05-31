@@ -12,19 +12,19 @@
 - [x] Validações de email existente, login e outros;
 
 ### Formulário de Cadastro (cadastro.php)
-   <img src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" />
+   <img with="596" height="382" src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" />
 
 ### Formulário de Login  (index.php);
 
-   <img src="https://imgur.com/7nnZFyC.png" title="source: imgur.com" />
+   <img with="596" height="382" src="https://imgur.com/7nnZFyC.png" title="source: imgur.com" />
    
 ### TELA DE PAINEL (painel.php);
 
-<img src="https://imgur.com/Aw4tVTT.png" title="source: imgur.com" />
+<img with="596" height="382" src="https://imgur.com/Aw4tVTT.png" title="source: imgur.com" />
     
 ### BANCO DE DADOS;
 
-   <img src="https://imgur.com/flvADYs.png" title="source: imgur.com" />
+   <img with="596" height="382" src="https://imgur.com/flvADYs.png" title="source: imgur.com" />
     
 ### 🛠 Tecnologias
 
