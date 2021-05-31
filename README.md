@@ -12,7 +12,7 @@
 - [x] Validações de email existente, login e outros;
 
 ### Formulário de Cadastro (cadastro.php)
-   <img with="596" height="382" src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" />
+   <img with="600" height="382" src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" />
 
 ### Formulário de Login  (index.php);
 
