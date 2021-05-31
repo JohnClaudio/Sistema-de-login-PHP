@@ -18,7 +18,9 @@ echo filter_var($teste, FILTER_SANITIZE_STRING);
 
 
 var_dump($user->verificarEmail('Kidizinhu77@gmail.com'));
-var_dump($teste);
+
+var_dump($user->verificarLogin('seg@gmail.com','seg'));
+//var_dump($teste);
 
 //var_dump(password_verify($senha, $hash));
 //var_dump($user->mostrarUsuarios());*/

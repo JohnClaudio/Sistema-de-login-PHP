@@ -11,15 +11,6 @@ body{
 }
 *{margin:0px;padding:0px;}
 
-.formulario{
-	background-color:#1e1e1e;
-	color:white;
-	margin-top: 8px;
-	height: 50px;
-	border-style:none;
-	width:70%;
-}
-
 .center{
 	margin-top:5%;
 }
@@ -51,14 +42,46 @@ a:hover{
 	height: 50px;
 	border-style:none;
 }
-.formulario:focus{
-	background-color:#1e1e1e;
-	border-style: solid;
-	border-color:#ffbe00;
-	color:white;
-}
+
 
 .backgroundColor{
 	background-color:#252525;
 	color:#ffbe00;
+}
+
+
+/*FORMULARIOS*/
+
+
+.formulario{
+	background-color:#1e1e1e;
+	color:white;
+	margin-top: 8px;
+	height: 50px;
+	border-style:none;
+	width:70%;
+}
+
+.formulariored{
+	background-color:#1e1e1e;
+	color:white;
+	margin-top: 8px;
+	height: 50px;
+	border-style:none;
+	width:70%;
+}
+
+.formulario:focus{
+	background-color:#1e1e1e;
+	border-style: solid;
+	border-color:#ffbe00;
+	color:#ffbe00;	
+ 
+}
+
+.formulariored:focus{
+	background-color:#1e1e1e;
+	border-style: solid;
+	border-color:red;
+	color:red;
 }
