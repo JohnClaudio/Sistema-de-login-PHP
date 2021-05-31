@@ -13,12 +13,10 @@
 - [x] Validações de email existente, login e outros;
 
 ### Formulário de Cadastro
-   <img alt="Formulário de Cadastro" width="600px" height="500px" src="">
    <img src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" /><
 
 ### Formulário de Login;
 
-   <img alt="Formulario de Login" width="600px" src="">
    <img src="https://imgur.com/7nnZFyC.png" title="source: imgur.com" />
    
 ### TELA DE PAINEL;
@@ -26,7 +24,6 @@
      
 ### BANCO DE DADOS;
 
-   <img alt="Formulario de Login" width="600px" src="">
    <img src="https://imgur.com/flvADYs.png" title="source: imgur.com" />
     
 ### 🛠 Tecnologias
