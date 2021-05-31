@@ -1,28 +1,28 @@
-# Sistema-de-login-PHP
-🟠 Sistema de cadastro utilizando PHP,PDO E MYSQL 
+# 🟠 PHP LOGIN SYSTEM
 
-## 💻 Sobre o projeto
 
-- Este sistema foi um desafio proposto pela Capgemini. Na Aplicação é possível realizar cadastros de anúncios, retornar um relatório com base no investimento por dia seguindo alguns requisitos para gerar as projeções:
+## 💻 Sobre
 
-- A cada 100 pessoas que visualizam o anúncio 12 clicam nele.
-A cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
-Cada compartilhamento nas redes sociais gera 40 novas visualizações.
-30 pessoas visualizam o anúncio original (não compartilhado) a cada R$ 1,00 investido.
+- Um Sistema simples de CADASTRO E LOGIN realizado com intuito de estudo
+- para a realização do projeto utilizei PHP, PDO, POO E MYSQL.
+- Pretendo ir adicionando novas funcionalidades em breve
+
 
 ### Features
 
-- [x] Cadastro de anuncios;
-- [x] Filtro de pesquisa por nome de cliente ou anuncio;
-
-### Projecões Estimadas
-
-   <img alt="Projecões Estimadas" width="600px" src="">
-   <img src="https://i.imgur.com/GeTelk7.png" title="source: imgur.com" />
+- [x] Cadastro de usuários com HASH;
+- [x] Validações de email existente, login e outros;
 
 ### Formulário de Cadastro
    <img alt="Formulário de Cadastro" width="600px" height="500px" src="">
    <img src="https://i.imgur.com/m5UEasC.png" title="source: imgur.com" /><
+
+### TELA DE LOGIN;
+
+   <img alt="Projecões Estimadas" width="600px" src="">
+   <img src="https://imgur.com/sFvGkyo.png" title="source: imgur.com" />
+   
+### TELA DE PAINEL;
     
 ### 🛠 Tecnologias
 
