@@ -8,25 +8,7 @@ class UserModel{
     {
       $this->pdo = $pdo->connect();
     }
-    
-    public function mostrarUsuarios()
-    {   
-     
-     try
-     {
-             $stm = $this->pdo->prepare('select * from usuario');
-             $stm->execute();
-             $result = $stm->fetchAll(PDO::FETCH_ASSOC);   
-             return $result;
         
-      }
-      catch(PDOException $ex)
-      {
-             echo $ex->getMessage();
-      }     
-         
-    }
-    
     public function NomeUsuario($email)
     {
         
