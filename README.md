@@ -1,11 +1,6 @@
 # 🔴 PHP LOGIN SYSTEM
 
 
-## 💻 Sobre
-
--  Esta é a primeira versão simples do PHP LOGIN SYSTEM, o projeto feito com intuito de estudo, pretendo adicionar novas funcionalidades em breve. 
--  Para a construção foi utilizado PHP, PDO, POO E MYSQL. 
-
 ### Features
 
 - [x] Cadastro de usuários com HASH;
