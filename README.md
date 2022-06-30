@@ -4,7 +4,7 @@
 ### Features
 
 - [x] Cadastro de usuários com HASH;
-- [x] Validações de email existente, login e outros;
+- [x] Validações de login e email existente ;
 
 ### Formulário de Cadastro (cadastro.php)
    <img with="600" height="385" src="https://imgur.com/0kkXdGW.png" title="source: imgur.com" />
